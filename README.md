@@ -11,7 +11,6 @@ public class Program
     static void Main(string[] args)
     {
         Log.Info("Hello,world!!!");
-        Log.DebugFormat("");
     }
 }
 ````
