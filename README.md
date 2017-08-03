@@ -6,14 +6,12 @@ A lightweight log components based on log4net.
 ```cs
 using log4net;
 
-namespace Test
+public class Program
 {
-    public class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Log.Info("Hello,world!!!");
-        }
+        Log.Info("Hello,world!!!");
+        Log.DebugFormat("");
     }
 }
 ````
