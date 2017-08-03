@@ -9,7 +9,7 @@ namespace log4net
     /// </summary>
     public static class Log
     {
-        #region 日志组件
+        #region Cache
         /// <summary>
         ///     the logger cache.
         /// </summary>
